@@ -5,19 +5,19 @@
 #define SIGPONG_PRIVATE_H
 
 /* VERSION DEFINITIONS */
-#define VER_STRING	"0.2.1.100"
+#define VER_STRING	"0.5.3.191"
 #define VER_MAJOR	0
-#define VER_MINOR	2
-#define VER_RELEASE	1
-#define VER_BUILD	100
+#define VER_MINOR	5
+#define VER_RELEASE	3
+#define VER_BUILD	191
 #define COMPANY_NAME	""
-#define FILE_VERSION	"0.2.1.100"
+#define FILE_VERSION	"0.5.3.191"
 #define FILE_DESCRIPTION	"Pong"
 #define INTERNAL_NAME	""
-#define LEGAL_COPYRIGHT	"2021"
+#define LEGAL_COPYRIGHT	"2022"
 #define LEGAL_TRADEMARKS	""
 #define ORIGINAL_FILENAME	""
 #define PRODUCT_NAME	"SIGIL Pong 32bit"
-#define PRODUCT_VERSION	"0.2.1.100"
+#define PRODUCT_VERSION	"0.5.3.191"
 
 #endif /*SIGPONG_PRIVATE_H*/

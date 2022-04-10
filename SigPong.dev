@@ -4,8 +4,8 @@ Name=SigPong
 Type=1
 Ver=2
 ObjFiles=
-Includes="C:\Users\QA Admin\Desktop\CPP\SigPong\include"
-Libs="C:\Users\QA Admin\Desktop\CPP\SigPong\lib"
+Includes="C:\Users\Michael\Desktop\CPP PROJ\Sigil_Pong-main\include"
+Libs="C:\Users\Michael\Desktop\CPP PROJ\Sigil_Pong-main\lib"
 PrivateResource=SigPong_private.rc
 ResourceIncludes=
 MakeIncludes=
@@ -19,7 +19,7 @@ ObjectOutput=
 LogOutput=
 LogOutputEnabled=0
 OverrideOutput=1
-OverrideOutputName=SigilPong32.exe
+OverrideOutputName=Sigpong32.exe
 HostApplication=
 UseCustomMakefile=0
 CustomMakefile=
@@ -29,24 +29,24 @@ IncludeVersionInfo=1
 SupportXPThemes=0
 CompilerSet=3
 CompilerSettings=000000a100000000000000000
-UnitCount=3
+UnitCount=6
 
 [VersionInfo]
 Major=0
-Minor=2
-Release=1
-Build=100
+Minor=5
+Release=3
+Build=191
 LanguageID=1033
 CharsetID=1252
 CompanyName=
-FileVersion=0.2.1.100
+FileVersion=0.5.3.191
 FileDescription=Pong
 InternalName=
-LegalCopyright=2021
+LegalCopyright=2022
 LegalTrademarks=
 OriginalFilename=
 ProductName=SIGIL Pong 32bit
-ProductVersion=0.2.1.100
+ProductVersion=0.5.3.191
 AutoIncBuildNr=1
 SyncProduct=1
 
@@ -72,6 +72,36 @@ BuildCmd=
 
 [Unit3]
 FileName=object.h
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit4]
+FileName=engine.h
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit5]
+FileName=ball.h
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit6]
+FileName=input.h
 CompileCpp=1
 Folder=
 Compile=1

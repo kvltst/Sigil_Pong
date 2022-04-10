@@ -1,15 +1,25 @@
 // paddle.h
 
-class Paddle
-{
+#pragma once
+#include "object.h"
+
+class Paddle: public GameObject {
+
 	public:
-		double x;
-		double y;
+		double getWidth() {
+			return width;
+		}
+		double getHeight() {
+			return height;
+		}
+		void setWidth(double w) {
+			width = w;
+		}
+		void setHeight(double h) {
+			height = h;
+		}
+
+	private:
 		double width;
 		double height;
-		
-		int dir;
-	
-	private:
-		// blah
 };
